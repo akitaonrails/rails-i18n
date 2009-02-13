@@ -26,7 +26,7 @@ pt-BR:
     am: ''
     pm: ''
   
-  # date helper distanci em palavras
+  # date helper distancia em palavras
   datetime: 
     distance_in_words: 
       half_a_minute: 'meio minuto'
@@ -103,9 +103,9 @@ pt-BR:
     errors: 
       template: 
         header: 
-          one: "{{model}} não pôde ser salvo: 1 erro"
-          other: "{{model}} não pôde ser salvo: {{count}} erros."
-        body: "Por favor, cheque os seguintes campos:"
+          one: "Não foi possível salvar {{model}}: 1 erro"
+          other: "Não foi possível salvar {{model}}: {{count}} erros."
+        body: "Por favor, verifique os seguintes campos:"
       messages: 
         inclusion: "não está incluso na lista"
         exclusion: "não está disponível"
